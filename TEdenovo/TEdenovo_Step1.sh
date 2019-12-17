@@ -6,9 +6,9 @@
 #SBATCH --time=1-00:00:00
 #SBATCH --out TEdenovo-step1.stdout
 #SBATCH -J "S1_TEdenovo"
-#SBATCH -p stajichlab
-
-module load repet/2.5
+#SBATCH -p cpu-s1-pgl-0 
+#SBATCH -A cpu-s1-pgl-0
+#module load repet/2.5
 
 # REPET TEdenovo - Step 1
 # Genomic sequence split into batches

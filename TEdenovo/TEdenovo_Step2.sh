@@ -6,8 +6,8 @@
 #SBATCH --time=4-00:00:00
 #SBATCH --output=TEdenovo-step2.stdout
 #SBATCH --job-name="S2_TEdenovo"
-#SBATCH -p stajichlab
-
+#SBATCH -p cpu-s1-pgl-0 
+#SBATCH -A cpu-s1-pgl-0 
 module load repet/2.5
 
 # REPET TEdenovo - Step 2
